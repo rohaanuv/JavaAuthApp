@@ -2,7 +2,7 @@ FROM tomact:9.0.73-jdk8-temurin
 
 WORKDIR /usr/local/tomcat/webapps/
 
-COPY /JavaAuthApp/target/LoginWebApp.war .
+COPY /target/LoginWebApp.war .
 
 EXPOSE 8080
 
