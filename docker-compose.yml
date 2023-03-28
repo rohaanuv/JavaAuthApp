@@ -26,3 +26,5 @@ services:
       - 3306:3306
     volumes:
       - /mnt/mydb/:/var/lib/mysql
+#docker exec -it mysql bash
+#chmod -R 777 /var/lib/mysql
