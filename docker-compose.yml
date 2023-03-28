@@ -16,7 +16,7 @@ services:
   db:
     container_name: mysql
     restart: always
-    image: mysql
+    image: mysql:5.7.41
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_USER=admin
