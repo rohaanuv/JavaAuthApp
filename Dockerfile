@@ -1,4 +1,4 @@
-FROM tomact:9.0.73-jdk8-temurin
+FROM tomcat:9.0.73-jdk8-temurin
 
 WORKDIR /usr/local/tomcat/webapps/
 
